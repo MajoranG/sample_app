@@ -60,5 +60,5 @@ Rails.application.configure do
   # routes, locales, etc. This feature depends on the listen gem.
   config.file_watcher = ActiveSupport::EventedFileUpdateChecker
   # Cloud9 への接続を許可する
-  config.hosts.clea
+  config.hosts.clear
 end
